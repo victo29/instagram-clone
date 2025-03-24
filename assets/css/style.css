@@ -129,7 +129,7 @@ main {
 
 .stories-element {
     width: 100%;
-    min-width: 500px;
+    min-width: 628px;
     max-width: 700px;
     height:100px;
     position: relative;
@@ -523,4 +523,59 @@ main {
 
 .copyright {
     margin-top: 20px;
+}
+
+@media (max-width: 1264px) {
+    .text-button{
+        display: none;
+    }
+    
+    .left-aside{
+        width: 4.5rem;
+    }
+
+    .div-button button{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .img-button{
+        margin-left: 0;
+    }
+
+    main{
+        margin-left: 10%;
+    }
+
+    .logo-written{
+        display: none;
+    }
+
+    .box-logo{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-logo img{
+        width: 30px;
+    }
+}
+
+
+@media (min-width: 1265px) {
+    .logo-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 1159px)  {
+    .right-aside{
+        display: none;
+    }
+
+    main{
+        margin-left: 29%;
+    }
 }
